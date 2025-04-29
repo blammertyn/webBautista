@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Diseño y Desarrollo Web</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Menú de navegación -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Inicio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="avisos.html">Avisos</a></li>
+        <li class="nav-item"><a class="nav-link" href="sobremi.html">Sobre mí</a></li>
+        <li class="nav-item"><a class="nav-link" href="materias2025.html">Materias 2025</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Contenido principal -->
+<div class="container mt-5">
+  <h1 class="text-center">Diseño y Desarrollo Web</h1>
+
+  <div class="row mt-4">
+    <!-- Columna izquierda -->
+    <div class="col-md-6">
+      <h3>Fechas de Exámenes</h3>
+      <ul>
+        <li>29/4 - Primer Parcial</li>
+        <li>24/6 - Segundo Parcial</li>
+        <li>8/7 - Recuperatorio o Final Adelantado</li>
+        <li>22/7 - Final Regular</li>
+      </ul>
+
+      <h3>Bibliografía</h3>
+      <ul>
+        <li><a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/571993/View" target="_blank">Material 1</a></li>
+        <li><a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/viewContent/571997/View" target="_blank">Material 2</a></li>
+      </ul>
+    </div>
+
+    <!-- Columna derecha -->
+    <div class="col-md-6">
+      <h3>Actividades UVAs</h3>
+      <ul>
+        <li><a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/Home" target="_blank">Repositorio UVA1</a> - <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/Home" target="_blank">Página Desplegada UVA1</a></li>
+        <li><a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/Home" target="_blank">Repositorio UVA2</a> - <a href="https://virtualbsp.uade.edu.ar/d2l/le/content/43347/Home" target="_blank">Página Desplegada UVA2</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="text-center p-3 mt-5 bg-light">
+    Curso: 516035 / Profesora: Patricia Litovicius
+  </footer>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
